@@ -139,19 +139,8 @@ The current experiment may be underpowered to detect an effect of this size.
 
 This estimate is based on the observed conversion rates and assumes that the observed effect is the effect worth detecting. Actual future conversion rates may differ.
 
-## 10. Visualizations
 
-### Conversion Rate Comparison
-
-![Conversion Rate Comparison](ab_conversion_comparison.png)
-
-### 95% Confidence Interval
-
-![Confidence Interval Analysis](ab_confidence_interval.png)
-
-The confidence interval crosses zero, visually supporting the conclusion that the observed conversion difference is not statistically significant.
-
-## 11. Executive Business Recommendation
+## 10. Executive Business Recommendation
 
 **Decision: Keep Control A for now.**
 
@@ -167,7 +156,7 @@ Recommended business actions:
 
 Launching Variant B as a proven winner based on the current experiment would be premature.
 
-## 12. Project Deliverables
+## 11. Project Deliverables
 
 - Validated A/B testing dataset
 - Jupyter Notebook containing the statistical analysis
@@ -178,7 +167,7 @@ Launching Variant B as a proven winner based on the current experiment would be 
 - Executive decision memo
 - Final PDF statistical report
 
-## 13. Dataset Limitations
+## 12. Dataset Limitations
 
 - The dataset is synthetic and intended for analytical practice.
 - The experiment contains 600 visitors per group.
@@ -186,7 +175,7 @@ Launching Variant B as a proven winner based on the current experiment would be 
 - The sample-size estimate is based on the observed effect and may change with future data.
 - The analysis does not establish that the checkout variation caused a real-world business improvement.
 
-## 14. Final Conclusion
+## 13. Final Conclusion
 
 Variant B achieved a higher observed conversion rate than Control A. However, the p-value of 0.1905 and the 95% confidence interval indicate insufficient evidence of a statistically significant improvement.
 
